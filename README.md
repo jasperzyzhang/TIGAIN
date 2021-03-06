@@ -1,0 +1,2 @@
+# TIGAIN
+ Tightly Integrative GAIN
