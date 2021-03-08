@@ -101,7 +101,7 @@ def main (args):
       imputed_data_x = gain_imputed_data_x
       rmse = gain_rmse
 
-  elif imp_type == 'TIgain' :   # Impute missing data using GAIN
+  elif imp_type == 'TIgain' :   # Impute missing data using TiGAIN
       print("Tightly Integrative GAIN")
       info_name = args.info_name
       ori_data_x, info_matrix , miss_data_x, data_m= data_loader_cols_TI(data_name,info_name, miss_rate, col_num)
